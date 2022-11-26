@@ -1,0 +1,22 @@
+7
+{ apple: 1 }
+[{ name: owd, inventory: { apple: 1 } }]
+[{ owd: { apple: 1 } }]
+{ apple: 1 }
+[{ name: owd, inventory: { apple: 0 } }]
+[]
+{ apple: 10 }
+[{ name: owd, inventory: { apple: 5 } }, { name: dm, inventory: { apple: 5 }}]
+[{ dm: { apple: 5 }}, { owd: { apple: 5 } }]
+{ apple: 7 }
+[{ name: owd, inventory: { apple: 5 } }, { name: dm, inventory: { apple: 5 }}]
+[{ dm: { apple: 2 }}, { owd: { apple: 5 } }]
+{ apple: 15 }
+[{ name: owd, inventory: { apple: 5 } }, { name: dm, inventory: { apple: 5 }}]
+[]
+{ apple: 5, banana: 5, orange: 5 }
+[{ name: owd, inventory: { apple: 5, orange: 10 } }, { name: dm, inventory: { banana: 5, orange: 10 }}]
+[{'dm': {'banana': 5}}, {'owd': {'apple': 5, 'orange': 5}}]
+{ apple: 5 }
+[{ name: owd, inventory: { apple: 2 } }]
+[]
