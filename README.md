@@ -3,7 +3,7 @@
 ## Introduce
 주어진 문제를 해결하고 python의 단위 테스트 프레임워크인 unittest를 사용하여  테스트하는 과제입니다. 
 
-[freed-soft-assginment.shop:881](freed-soft-assginment.shop:881)**👈 Enter a demo webpage via browser** to see some examples
+[freed-soft-assginment.shop:881](http://freed-soft-assginment.shop:881/)**👈 Enter a demo webpage via browser** to see some examples
 
 ## The Problem is...
 compute the best way an order can be shipped (called shipments) given
