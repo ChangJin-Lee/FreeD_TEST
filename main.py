@@ -36,11 +36,11 @@ def main_page():
             st.error("Please check order and inventory")
     except:
         st.error("format dosen't match")
-
     
     st.markdown(
         """
-        ### sample_input.txt
+        ####  더 많은 케이스를 넣으려면 밑의 형식을 참고해 txt 파일을 변경
+        #### sample_input.txt
         - 제일 첫 번째 줄에 테스트 케이스의 개수가 주어집니다.
         - 두 번째 줄부터 한 줄씩 order, shipment, output이 주어집니다.
     """
@@ -49,7 +49,7 @@ def main_page():
     input_writes = []
     with open('sample_input.txt') as file_data:
         st.write(file_data.readlines())
-    
+
 
 def main():
     # order and warehouses are both should dict format
