@@ -61,7 +61,6 @@ def allocate_inventory(order: dict, warehouses: list) -> list:
                         kdict[warehouse["name"]].update(dict(mdict))
                     else:
                         kdict[warehouse["name"]] = dict(mdict)
-        # print(kdict)
         if kdict[warehouse["name"]]:
             result.append(dict(kdict))
     result = sorted(result, key=lambda x: x['name'])

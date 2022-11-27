@@ -1,0 +1,11 @@
+version: "3.1"
+
+services:
+
+  FREED_TEST:
+    image: freed/test:v1_ship
+    restart: always
+    volumes:
+      - .:/App/
+    ports:
+      - 881:80

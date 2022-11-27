@@ -56,9 +56,13 @@ class TestApp(unittest.TestCase):
         self.assertEqual(result_output("{ apple: -10 }", "[{ name: owd, inventory: { apple: -5 } }, { name: dm, inventory: { apple: 5 }}]"),
                              [])
 
-    # def test_not_enough_inventory(self):
-    #     self.assertEqual(result_output("{ apple: 10 }", "[{ name: owd, inventory: { apple: 5 } }, { name: dm, inventory: { apple: 5 }}]"),
-    #                          [{ "dm": { "apple": 5 }}, { "owd": { "apple": 5 } }])
+    def test_inventory_empty(self):
+        self.assertEqual(result_output("{ apple: 10 }", "[{ name: owd, inventory: {} }, { name: dm, inventory: {}}]"),
+                             [])
+
+    def test_order_empty(self):
+        self.assertEqual(result_output("{}", "[{ name: owd, inventory: {} }, { name: dm, inventory: {}}]"),
+                             [])
 
 if __name__ == '__main__':
     unittest.main()
