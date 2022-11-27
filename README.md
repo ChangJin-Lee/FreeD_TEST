@@ -23,6 +23,7 @@ inventory across a set of warehouses
 
 |항목|내용|비고|
 |:---:|:---:|:---:|
+|streamlit|1.15.1| |
 |sys|| built-in Python module|
 |os|| built-in Python module|
 |unittest|| built-in Python module|
@@ -33,6 +34,9 @@ inventory across a set of warehouses
 ### Precautions
 - you need to set up these things
     - docker-compose, docker
+- if you don't use docker
+    - streamlit
+
 <br/>
 
 ## Usage
